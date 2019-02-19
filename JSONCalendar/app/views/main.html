@@ -9,15 +9,18 @@
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
         #{get 'moreStyles' /}
         <link rel="stylesheet" media="screen" href="@{'/public/sass/stylesheets/screen.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/javascripts/cal.json'}">
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/xyzprinting.png'}">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Pacifico" rel="stylesheet">
         #{get 'moreScripts' /}
         <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="@{'/public/javascripts/calendar.js'}"></script>
     </head>
-    <body onload="CreateTableFromJSON()">
+    <body>
         #{doLayout /}
     </body>
 </html>

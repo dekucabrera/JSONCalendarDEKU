@@ -1,7 +1,88 @@
 body{
-    background-color: lightblue;
+    background-image: url('https://i.pinimg.com/originals/57/bb/66/57bb66cb4895565d755910654a6b0c80.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-table, tr, td, th{
-    border: 1px solid black;
+div{
+    cursor:pointer;
 }
+
+table{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background:rgba(255,255,255, 0.4);
+}
+
+.month{
+    background-color: #404247;
+    color: white;
+    font-size: 20px;
+}
+
+tr, td, th{
+    border: 1px solid #595959;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.frontCal{
+    padding: 167px;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    background-color: #404247;
+    color: white;
+}
+
+@mixin redCaption{
+    color: red;
+}
+
+#Week1 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#Week2 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#Week3 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#Week4 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#Week5 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#Week6 td:nth-child(6n+1){
+    @include redCaption();
+}
+
+#chevron-arrow-left {
+  display: inline-block;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 15px;
+  height: 15px;
+  transform: rotate(-225deg);
+}
+
+#chevron-arrow-right {
+  display: inline-block;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 15px;
+  height: 15px;
+  transform: rotate(-45deg);
+}
+
