@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../sass/_index.scss */
+/* line 1, ../../sass/sass/_index.scss */
 body {
   background-image: url("https://i.pinimg.com/originals/57/bb/66/57bb66cb4895565d755910654a6b0c80.jpg");
   height: 100vh;
@@ -77,12 +77,12 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 10, ../sass/_index.scss */
+/* line 10, ../../sass/sass/_index.scss */
 div {
   cursor: pointer;
 }
 
-/* line 14, ../sass/_index.scss */
+/* line 14, ../../sass/sass/_index.scss */
 table {
   width: 100%;
   height: 100%;
@@ -90,14 +90,14 @@ table {
   background: rgba(255, 255, 255, 0.4);
 }
 
-/* line 21, ../sass/_index.scss */
+/* line 21, ../../sass/sass/_index.scss */
 .month {
   background-color: #404247;
   color: white;
   font-size: 20px;
 }
 
-/* line 27, ../sass/_index.scss */
+/* line 27, ../../sass/sass/_index.scss */
 tr, td, th {
   border: 1px solid #595959;
   text-align: center;
@@ -106,16 +106,16 @@ tr, td, th {
   font-family: 'Bowlby One SC', cursive;
 }
 
-/* line 35, ../sass/_index.scss */
+/* line 35, ../../sass/sass/_index.scss */
 .frontCal {
-  padding: 240px;
+  padding: 180px;
   font-family: 'Pacifico', cursive;
   font-size: 80px;
   background-color: #404247;
   color: white;
 }
 
-/* line 43, ../sass/_index.scss */
+/* line 43, ../../sass/sass/_index.scss */
 #chevron-arrow-left {
   display: inline-block;
   border-right: 4px solid black;
@@ -125,7 +125,7 @@ tr, td, th {
   transform: rotate(-225deg);
 }
 
-/* line 52, ../sass/_index.scss */
+/* line 52, ../../sass/sass/_index.scss */
 #chevron-arrow-right {
   display: inline-block;
   border-right: 4px solid black;

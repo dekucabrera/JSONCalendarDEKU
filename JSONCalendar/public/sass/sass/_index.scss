@@ -27,62 +27,33 @@ table{
 tr, td, th{
     border: 1px solid #595959;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-size: 16px;
     font-family: 'Bowlby One SC', cursive;
 }
 
 .frontCal{
-    padding: 167px;
+    padding: 240px;
     font-family: 'Pacifico', cursive;
     font-size: 80px;
     background-color: #404247;
     color: white;
 }
 
-@mixin redCaption{
-    color: red;
-}
-
-#Week1 td:nth-child(6n+1){
-    @include redCaption();
-}
-
-#Week2 td:nth-child(6n+1){
-    @include redCaption();
-}
-
-#Week3 td:nth-child(6n+1){
-    @include redCaption();
-}
-
-#Week4 td:nth-child(6n+1){
-    @include redCaption();
-}
-
-#Week5 td:nth-child(6n+1){
-    @include redCaption();
-}
-
-#Week6 td:nth-child(6n+1){
-    @include redCaption();
-}
-
 #chevron-arrow-left {
-  display: inline-block;
-  border-right: 4px solid black;
-  border-bottom: 4px solid black;
-  width: 15px;
-  height: 15px;
-  transform: rotate(-225deg);
+    display: inline-block;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-225deg);
 }
 
 #chevron-arrow-right {
-  display: inline-block;
-  border-right: 4px solid black;
-  border-bottom: 4px solid black;
-  width: 15px;
-  height: 15px;
-  transform: rotate(-45deg);
+    display: inline-block;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-45deg);
 }
-
